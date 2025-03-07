@@ -1,6 +1,6 @@
 # Portfolio of Yuliia Kuvalchuk
 
-<img src ="https://github.com/CodeVinayak/CodeVinayak/blob/5920a79f4c5977332a67caf91125241cf0fc46b5/www.vinayaksingh.in.png" />
+<img src ="https://github.com/yuliiak111/portfolio/blob/main/src/assets/dashboard.png" />
  
 This project was created with CRA (Create React App)
 
