@@ -1,6 +1,11 @@
 import { Container } from "./styles";
-import VinayakSingh from "../../assets/VinayakSingh.webp";
+import KYuliia from "../../assets/KYuliia.png";
 import wordpress from "../../assets/wordpress.svg";
+import swift from "../../assets/swift.svg";
+import android from "../../assets/android.svg";
+import flutter from "../../assets/flutter.svg";
+import reactNative from "../../assets/react-native.svg";
+import python from "../../assets/python.svg";
 import shopify from "../../assets/shopify.svg";
 import htmlIcon from "../../assets/html-icon.svg";
 import cssIcon from "../../assets/css-icon.svg";
@@ -21,21 +26,46 @@ export function About() {
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInLeft" delay={0.1 * 1000}>
           <p>
-            Hi there! I'm Vinayak, a website developer with a passion for creating custom online experiences for my clients. With a skill set including HTML, CSS, JavaScript, and React, I have the tools to bring any website vision to life.
+            Hi there! I'm Yuliia, a mobile & web developer with a passion for creating custom online experiences for my clients. With a skill set including iOS, Android, Flutter, React Native, HTML, CSS, JavaScript, and React, I have the tools to bring any mobile and website vision to life.
           </p>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInLeft" delay={0.2 * 1000} style={{ marginTop: "2rem", marginBottom: "2rem" }}>
           <p>
-            But my services go beyond just custom development - I'm also proficient in using CMS systems like WordPress and Shopify, making it easy for my clients to take control of their own websites and keep them up to date.</p>
+            I prefer clean and reusable code with modern architecture pattern.</p>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInLeft" delay={0.3 * 1000}>
           <p>
-            So if you're in need of a new website or just looking to revamp your current online presence, I'd love to chat and see how I can help. Let's bring your website dreams to reality together!</p>
+            So if you're in need of a new mobile and web or just looking to revamp your current online presence, I'd love to chat and see how I can help. Let's bring your dreams to reality together!</p>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInLeft" delay={0.4 * 1000}>
           <h3>Here are my main skills:</h3>
         </ScrollAnimation>
         <div className="hard-skills">
+        <div className="hability">
+            <ScrollAnimation animateIn="fadeInUp" delay={0.10 * 1000}>
+              <img src={swift} alt="Swift" />
+            </ScrollAnimation>
+          </div>
+          <div className="hability">
+            <ScrollAnimation animateIn="fadeInUp" delay={0.10 * 1000}>
+              <img src={android} alt="Android" />
+            </ScrollAnimation>
+          </div>
+          <div className="hability">
+            <ScrollAnimation animateIn="fadeInUp" delay={0.10 * 1000}>
+              <img src={flutter} alt="Flutter" />
+            </ScrollAnimation>
+          </div>
+          <div className="hability">
+            <ScrollAnimation animateIn="fadeInUp" delay={0.10 * 1000}>
+              <img src={reactNative} alt="React Native" />
+            </ScrollAnimation>
+          </div>
+          <div className="hability">
+            <ScrollAnimation animateIn="fadeInUp" delay={0.10 * 1000}>
+              <img src={python} alt="Python" />
+            </ScrollAnimation>
+          </div>
           <div className="hability">
             <ScrollAnimation animateIn="fadeInUp" delay={0.10 * 1000}>
               <img src={wordpress} alt="Wordpress" />
@@ -90,7 +120,7 @@ export function About() {
       </div>
       <div className="about-image">
         <ScrollAnimation animateIn="fadeInRight" delay={0.20 * 1000}>
-          <img src={VinayakSingh} alt="Vinayak Singh" />
+          <img src={KYuliia} alt="Yuliia Kovalchuk" />
         </ScrollAnimation>
       </div>
     </Container>
